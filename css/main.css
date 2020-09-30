@@ -1,0 +1,358 @@
+/***************************
+GENERAL
+****************************/
+
+body.fontFamily {
+    font-family: "Libre Franklin","Helvetica Neue",Helvetica,Arial,sans-serif,'Aquatica', 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    max-width: 960px; /*no larger than but can be indéfiniment plus petit*/
+    margin: 0 auto; /*(auto meme espace à gauche et droite par rapport à la fenetre);*/
+    padding: 0 20px;
+    background: #FFF; /*changer l'arrière plan couleur*/
+}
+
+a {
+    text-decoration: none;
+}
+
+img{ /* the image fill in with the parents */
+    max-width: 100%; /* 100% de l'écrant / s'adapte en fonction des écrans*/
+}
+
+h3 {
+    margin: 0 0 1em 0;
+    color: #696969;
+    font-size: 0.5em;
+}
+
+.center {
+    text-align: center;
+}
+
+#carousel-example-generic {
+    margin: 0 0 0 0;
+}
+#carousel-control {
+    margin: 0% 0 0 0;
+}
+
+
+a.project {
+    width: 100%;
+    margin-bottom: 3px;
+    background-color: #eaeffa;
+}
+
+
+
+.topmargin {
+  margin-top: 3%;
+}
+.bmargin {
+  margin-bottom: 3%;
+}
+
+
+.tbmargin {
+  margin: 3% 0;
+}
+
+
+.borderRadius {
+  border-radius: 0%;
+  border-style: groove;
+  border-color: #000;
+}
+
+.paddingIn {
+  padding: 1%;
+}
+
+.paddingInb {
+  padding: 5%;
+}
+/*color work with hexadecimal base on 16 numbering system avec 0 1 2 3 4 5 6 7 8 9 a b c d e f
+16 * 16 = 256
+
+
+#6ab47b
+
+6a = red
+b4 = green
+7b = blue
+
+00000 black
+fffff white
+88888 gris
+*/
+
+
+/* Google Fonts should be included before your CSS, so the font can be used in the file */
+
+
+/*****************************
+HEADING
+******************************/
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0; /* top, right, bottom, left / top/bottom, left rigtht / top, left/right bottom */
+    width: 100%;
+}
+
+#logo {
+    text-align: center; /*= key word*/
+    margin: 0; /*numeric or key word*/
+}
+
+h1 {
+    font-family: 'Changa One', sans-serif; /* sans-serif ecriture par défaut */
+    margin: 15px 0;
+    font-size: 1.75em; /* 1em = 16pixel par defaut taille écrant*/
+    font-weight: normal;
+    line-height: 0.8em; /*amount of space between the text*/
+}
+
+h2 {
+    font-size: 0.75em;
+    margin: auto; /* top, left/right, bottom*/
+    font-weight: normal;
+}
+
+
+/*****************************
+NAVIGATION
+******************************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800; /* grosseur du texte */
+    padding: 15px 10px;
+}
+
+ul.nav {
+  display: inline-flex;
+}
+
+
+
+
+/***********************
+FOUTER
+***********************/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear:both;
+    padding-top: 50px;
+    color: #CCC;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+
+/***********************************
+PAGE: PORTFOLIO
+************************************/
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* style  des bullet ici aucun */
+}
+
+#gallery li {
+    float:left; /*les élément floats à gauche de chacun*/
+    width: 100%; /*45% de l'ecran donc 2 image images seront afficher */
+    margin: 2.5%; /*espace entre les image*/
+    background-color: #FFF;
+    color: #bdc3c7; /* text color */
+    text-align: -webkit-center;
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 1em;
+    color: #bdc3c7;
+}
+
+.gallery {
+  width: 600px;
+  height: 430px;
+}
+
+
+
+/***********************************
+PAGE: ABOUT
+************************************/
+
+.profile-photo {
+    display: block; /* sépare les block */
+    /*max-width: 150px; /*no larger*/
+    margin: auto; /* auto permet de centrer */
+    border-radius: 100%; /*rond (12px corner curve)*/
+}
+
+.profile-photo1 {
+    display: block; /* sépare les block */
+    margin: auto; /* auto permet de centrer */
+    border-radius: 15%; /*rond (12px corner curve)*/
+}
+
+.about {
+    text-align: justify;
+}
+
+.margin {
+  margin: 10%;
+}
+
+.width{
+  width: 99%;
+  margin: auto;
+}
+
+
+/***********************************
+PAGE: CONTACT
+************************************/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block; /*chaque element vont pick up space*/
+    min-height: 20px; /*taille minimum*/
+    background-repeat: no-repeat; /*le background se répète par défaut ici on l'enlève*/
+    background-size: 20px 20px;  /*retailler le background il faut 2 valeur pr la largeur et la hauteur et  si 1 valeur correspond à la largeur et la seconde vaut auto*/
+    padding: 0 0 0 30px; /*le texte sera bouger vers la droite pour laisser la place pr les images*/
+    margin: 0 0 10px; /*plus d'espace entre les ligne*/
+}
+
+.contact-info li.phone a {
+    background-image:url('../img/phone.png'); /*../img les 2point représentent les 2 dossier (quel niveau) au dessus des images*/
+}
+
+.contact-info li.mail a {
+    background-image:url('../img/mail.png'); /*../img les 2point représentent les 2 dossier (quel niveau) au dessus des images*/
+}
+
+.contact-info li.twitter a {
+    background-image:url('../img/twitter.png'); /*../img les 2point représentent les 2 dossier (quel niveau) au dessus des images*/
+}
+
+
+
+
+
+/***********************
+COLORS
+***********************/
+
+/* site body */
+body {
+    background-color: #fff;
+    color: #999;
+}
+
+/* green header */
+header {
+    background-color: #5890C4;
+    border-color: #0a3d96;
+}
+
+nav {
+    background: #5890C4;
+}
+
+/* logo text */
+header h1 {
+  color: #fff; /*= #ffffff*/
+}
+header h2 {
+  color: #fff; /*= #ffffff*/
+}
+
+/* h1, h2 virgule sépare les 2 selector
+
+h1 {
+    color: #ffffff
+}
+
+h2 {
+    color: #ffffff
+}*/
+
+
+/* link */
+a {
+    color: #6ab47b;
+}
+
+/* nav background on mobile*/
+
+/* nav link */
+nav a, nav a:visited /*(= pseudo class)*/ {
+    color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover /*= pseudo class)*/ {
+    color: #022a70
+}
+
+/* Anchor = a */
+
+
+a.project:hover {
+  background-color: #5283d8;
+  color: #fff;
+}
+
+div.panel-heading.blue:hover {
+  background-color: #5283d8;
+  color: #fff;
+}
+
+div.panel-heading.blue {
+    background-color: #eaeffa;
+}
+
+.noir {
+  color: #000;
+}
+
+.darkgrey {
+  color: #696969;
+}
+
+a h4 {
+  color: #5283d8;
+}

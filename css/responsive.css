@@ -1,0 +1,92 @@
+@media screen and (min-width: 480px) { /*screen = print style and min width of 480px (=break point) les 2 propriétés doivent etre vrai pr le css code fonction*/
+
+  /***************************
+  TWO COLUMN LAYOUT
+  ****************************/
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 50%;
+    float: right;
+  }
+
+  /*#gallery li {
+  width: 28.3333%;
+  }*/
+
+}
+
+/***************************
+3 * 15 (2.5 + 2.5 = 5 * 3 = 15 =15%)
+100 - 15 = 85%
+85 / 3 = 28.333333333333
+****************************/
+
+
+/***************************
+PAGE: PORTFOLIO
+****************************/
+
+#gallery li {
+  width: 100%;
+}
+
+#gallery li:nth-child(4n) { /*le 4 élément de la liste sera clear pour pouvoir rester à gauche*/
+  clear: left;
+}
+
+
+
+/***************************
+PAGE: ABOUT
+****************************/
+
+.profile-photo {
+  float: left;
+  margin: 0 5% 40px 0; /*80px en bas in case of the text wrap around in the bottom of the image*/
+}
+
+@media screen and (min-width: 660px) {  /*the background change color base on the width 6600px*/
+  /***************************
+  HEADER
+  ****************************/
+  nav {
+    background: none; /*remove the back ground so that the text can sit against the header background*/
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right; /*alignement à droit*/
+    width: 45%;
+  }
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2{
+    font-size: 0.825em;
+    margin-bottom: 0px;
+  }
+
+  header {
+    border-bottom: 0px solid #022a70; /* 5px = width*/
+    margin-bottom: 20px;
+  }
+
+
+}
+
+/*@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}*/
