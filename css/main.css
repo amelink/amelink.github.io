@@ -66,30 +66,6 @@ a.project {
   border-color: #000;
 }
 
-/* Porfolio company cadre */
-.card.paddingIn {
-  border-radius: 0%;
-  border-style: none;
-  border-color: rgba(0, 0, 0, 0.125);
-}
-/* Porfolio image cadre */
-.card-img-top.paddingInb {
-  border-radius: 0%;
-  border-style: solid;
-  border-width: thin;
-  border-color: rgba(0, 0, 0, 0.125);
-}
-
-/*bouton contour*/
-.btn.btn-default.project {
-  border-radius: 0%;
-}
-
-/*bouton contour*/
-card.card-header {
-  border-radius: 0%;
-}
-
 .paddingIn {
   padding: 1%;
 }
