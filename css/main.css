@@ -3,7 +3,7 @@ GENERAL
 ****************************/
 
 body.fontFamily {
-    font-family: "Libre Franklin","Helvetica Neue",Helvetica,Arial,sans-serif,'Aquatica', 'Open Sans', sans-serif;
+    font-family: "Libre Franklin" ,"Helvetica Neue",Helvetica,Arial,sans-serif,'Aquatica', 'Open Sans', sans-serif,"proxima-nova";/*,;*/
 }
 
 #wrapper {
@@ -85,8 +85,8 @@ a.project {
   border-radius: 0%;
 }
 
-/*bouton contour*/
-card.card-header {
+/*About Accordéon cadre*/
+#accordion .card {
   border-radius: 0%;
 }
 
@@ -124,7 +124,8 @@ header {
     margin: 0 0 30px 0;
     padding: 5px 0 0 0; /* top, right, bottom, left / top/bottom, left rigtht / top, left/right bottom */
     width: 100%;
-}
+    }
+
 
 #logo {
     text-align: center; /*= key word*/
@@ -196,6 +197,13 @@ footer {
     margin: 0 5px;
 }
 
+.fa {
+    color: #05386b;
+}
+
+a:hover .fa /*= pseudo class)*/ {
+    color: #9CBFF0;
+}
 
 /***********************************
 PAGE: PORTFOLIO
@@ -308,12 +316,12 @@ body {
 
 /* green header */
 header {
-    background-color: #5890C4;
+    background-color: #05386b; /* ancien bleu: #5890C4;$*/
     border-color: #0a3d96;
 }
 
 nav {
-    background: #5890C4;
+    background: #05386b;
 }
 
 /* logo text */
@@ -349,7 +357,7 @@ nav a, nav a:visited /*(= pseudo class)*/ {
 
 /* selected nav link */
 nav a.selected, nav a:hover /*= pseudo class)*/ {
-    color: #022a70
+    color: #9CBFF0;
 }
 
 /* Anchor = a */
