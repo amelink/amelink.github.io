@@ -7,7 +7,7 @@ body.fontFamily {
 }
 
 #wrapper {
-    max-width: 960px; /*no larger than but can be indéfiniment plus petit*/
+    max-width: 1080px; /*no larger than but can be indéfiniment plus petit*/
     margin: 0 auto; /*(auto meme espace à gauche et droite par rapport à la fenetre);*/
     padding: 0 20px;
     background: #FFF; /*changer l'arrière plan couleur*/
@@ -42,9 +42,16 @@ h3 {
 a.project {
     width: 100%;
     margin-bottom: 3px;
-    background-color: #eaeffa;
+    background-color: #9CBFF0;
+    color: #fff;
 }
 
+.card .card-footer {
+    background-color: transparent;
+    border-style: none;
+    color: #000;
+    font-size: 14px;
+}
 
 
 .topmargin {
@@ -82,12 +89,18 @@ a.project {
 
 /*bouton contour*/
 .btn.btn-default.project {
-  border-radius: 0%;
+  border-radius: 25px;
 }
 
-/*About Accordéon cadre*/
+/***** About Accordéon cadre *****/
 #accordion .card {
   border-radius: 0%;
+  border-style: none;
+}
+
+#accordion .card-header {
+  border-radius: 25px;
+  border-style: solid;
 }
 
 .paddingIn {
@@ -267,6 +280,15 @@ PAGE: ABOUT
   margin: auto;
 }
 
+p.card-text {
+  font-family: 'Courgette', cursive;
+}
+
+
+
+
+
+
 
 /***********************************
 PAGE: CONTACT
@@ -342,8 +364,25 @@ h2 {
     color: #ffffff
 }*/
 
+/***** About Accordeon *****/
+#accordion .card-header {
+  border-color: #FFF;
+  background-color: #9CBFF0;
+}
 
-/* link */
+#accordion a { /* Header text-color*/
+  color: #FFF;
+  text-decoration:none;
+}
+
+#accordion .card-header:hover {
+  border-color: #FFF;
+  background-color: #05386b;
+}
+
+
+
+/***** link *****/
 a {
     color: #6ab47b;
 }
@@ -358,13 +397,14 @@ nav a, nav a:visited /*(= pseudo class)*/ {
 /* selected nav link */
 nav a.selected, nav a:hover /*= pseudo class)*/ {
     color: #9CBFF0;
+    text-decoration:none;
 }
 
 /* Anchor = a */
 
 
 a.project:hover {
-  background-color: #5283d8;
+  background-color: #05386b;
   color: #fff;
 }
 
