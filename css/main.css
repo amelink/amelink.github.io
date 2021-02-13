@@ -46,7 +46,7 @@ a.project {
     color: #fff;
 }
 
-.card .card-footer {
+#testimonial {
     background-color: transparent;
     border-style: none;
     color: #000;
@@ -280,7 +280,7 @@ PAGE: ABOUT
   margin: auto;
 }
 
-p.card-text {
+p#testimonial.card-text {
   font-family: 'Courgette', cursive;
 }
 
