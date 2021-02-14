@@ -4,6 +4,10 @@ GENERAL
 
 body.fontFamily {
     font-family: "Libre Franklin" ,"Helvetica Neue",Helvetica,Arial,sans-serif,'Aquatica', 'Open Sans', sans-serif,"proxima-nova";/*,;*/
+    padding-top: 90px;
+}
+#test {
+    padding-top: 90px;
 }
 
 #wrapper {
@@ -146,9 +150,10 @@ header {
 }
 
 h1 {
-    font-family: 'Changa One', sans-serif; /* sans-serif ecriture par défaut */
-    margin: 15px 0;
-    font-size: 1.75em; /* 1em = 16pixel par defaut taille écrant*/
+     /* font-family: 'Changa One', sans-serif;sans-serif ecriture par défaut */
+    margin: auto;
+    padding-top: 8px;
+    font-size: 1em; /* 1em = 16pixel par defaut taille écrant*/
     font-weight: normal;
     line-height: 0.8em; /*amount of space between the text*/
 }
@@ -347,8 +352,15 @@ header {
 }
 
 nav {
-    background: #05386b;
+    background-color: #05386b;
 }
+
+div.container {
+    background-color: #05386b;
+    width: 2080px;
+}
+
+
 
 /* logo text */
 header h1 {
