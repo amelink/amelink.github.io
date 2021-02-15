@@ -6,9 +6,6 @@ body.fontFamily {
     font-family: "Libre Franklin" ,"Helvetica Neue",Helvetica,Arial,sans-serif,'Aquatica', 'Open Sans', sans-serif,"proxima-nova";/*,;*/
     padding-top: 90px;
 }
-#test {
-    padding-top: 90px;
-}
 
 #wrapper {
     max-width: 1080px; /*no larger than but can be indéfiniment plus petit*/
@@ -149,13 +146,15 @@ header {
     margin: 0; /*numeric or key word*/
 }
 
-h1 {
+header h1 {
      /* font-family: 'Changa One', sans-serif;sans-serif ecriture par défaut */
     margin: auto;
     padding-top: 8px;
-    font-size: 1em; /* 1em = 16pixel par defaut taille écrant*/
+    font-size: 2rem; /* 1em = 16pixel par defaut taille écrant*/
     font-weight: normal;
     line-height: 0.8em; /*amount of space between the text*/
+    text-align: left;
+    width: 70%;
 }
 
 h2 {
@@ -171,9 +170,16 @@ NAVIGATION
 
 nav {
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
     margin: 20px 0 0;
 }
+
+div nav {
+  width:50%;
+  margin: 8px auto;
+  text-align: center;
+}
+
 
 nav ul {
     list-style: none;
