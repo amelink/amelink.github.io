@@ -4,7 +4,7 @@ GENERAL
 
 body.fontFamily {
     font-family: "Libre Franklin" ,"Helvetica Neue",Helvetica,Arial,sans-serif,'Aquatica', 'Open Sans', sans-serif,"proxima-nova";/*,;*/
-    padding-top: 90px;
+    padding-top: 80px;
 }
 
 #wrapper {
@@ -141,21 +141,12 @@ header {
     }
 
 
+
 #logo {
     text-align: center; /*= key word*/
     margin: 0; /*numeric or key word*/
 }
 
-header h1 {
-     /* font-family: 'Changa One', sans-serif;sans-serif ecriture par défaut */
-    margin: auto;
-    padding-top: 8px;
-    font-size: 2rem; /* 1em = 16pixel par defaut taille écrant*/
-    font-weight: normal;
-    line-height: 0.8em; /*amount of space between the text*/
-    text-align: left;
-    width: 70%;
-}
 
 h2 {
     font-size: 0.75em;
@@ -168,24 +159,38 @@ h2 {
 NAVIGATION
 ******************************/
 
-nav {
+
+div.menu {
+  max-width: 1080px;
+  margin: auto;
+    }
+
+div.menu nav {
     text-align: center;
-    padding: 5px 0;
-    margin: 20px 0 0;
-}
+    width:100%;
+    margin: 8px auto;
+    }
 
-div nav {
-  width:50%;
-  margin: 8px auto;
+
+div.menu nav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+    }
+
+div#logo {
+  margin: 0;
+  width: 100%;
+    }
+
+div#logo h1 {
+  margin: 8px 0;
+  font-size: 1.5rem; /* 1em = 16pixel par defaut taille écrant*/
+  font-weight: normal;
+  line-height: 0.8em; /*amount of space between the text*/
   text-align: center;
-}
+  }
 
-
-nav ul {
-    list-style: none;
-    margin: 0 10px;
-    padding: 0;
-}
 
 nav li {
     display: inline-block;

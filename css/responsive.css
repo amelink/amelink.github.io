@@ -1,9 +1,9 @@
-@media screen and (min-width: 480px) { /*screen = print style and min width of 480px (=break point) les 2 propriétés doivent etre vrai pr le css code fonction*/
+@media screen and (min-width: 576px) { /*screen = print style and min width of 480px (=break point) les 2 propriétés doivent etre vrai pr le css code fonction*/
 
   /***************************
   TWO COLUMN LAYOUT
   ****************************/
-  #primary {
+ #primary {
     width: 50%;
     float: left;
   }
@@ -13,9 +13,24 @@
     float: right;
   }
 
-  /*#gallery li {
-  width: 28.3333%;
-  }*/
+}
+
+@media (min-width: 576px) {
+
+  div.menu nav {
+    width:50%;
+    text-align: end;
+    padding: 0 20px 0 0;
+      }
+
+  div#logo {
+    width: 50%;
+    padding: 0 0 0 20px;
+    }
+
+    div#logo h1 {
+      text-align: left;
+      }
 
 }
 
