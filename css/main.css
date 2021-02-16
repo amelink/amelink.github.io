@@ -104,6 +104,17 @@ a.project {
   border-style: solid;
 }
 
+/*** Centrer H3 et H4 Mobile version ***/
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+
 .paddingIn {
   padding: 1%;
 }
@@ -267,6 +278,11 @@ PAGE: PORTFOLIO
   width: 600px;
   height: 430px;
 }
+
+h5.mb-0  {
+  text-align:center;
+}
+
 
 
 

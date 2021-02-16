@@ -15,6 +15,8 @@
 
 }
 
+/*** Destop version ***/
+
 @media (min-width: 576px) {
 
   div.menu nav {
@@ -28,8 +30,20 @@
     padding: 0 0 0 20px;
     }
 
-    div#logo h1 {
+  div#logo h1 {
       text-align: left;
+      }
+
+  h5.mb-0  {
+        text-align:left;
+      }
+
+      h3 {
+        text-align: left;
+      }
+
+      h4 {
+        text-align: left;
       }
 
 }
