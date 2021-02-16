@@ -191,6 +191,10 @@ div#logo h1 {
   text-align: center;
   }
 
+  h3.direct-link {
+    padding-top: 80px;
+    margin-top: -80px;
+  }
 
 nav li {
     display: inline-block;
@@ -433,6 +437,15 @@ nav a.selected, nav a:hover /*= pseudo class)*/ {
 a.project:hover {
   background-color: #05386b;
   color: #fff;
+}
+
+a.link-out:hover {
+  color: #05386b;
+  text-decoration:none;
+}
+
+a.link-out {
+  color: #9CBFF0;
 }
 
 div.panel-heading.blue:hover {
