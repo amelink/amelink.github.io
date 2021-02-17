@@ -26,6 +26,11 @@ h3 {
     margin: 0 0 1em 0;
     color: #696969;
     font-size: 0.5em;
+    text-align: center;
+}
+
+h4 {
+  text-align: center;
 }
 
 .center {
@@ -106,13 +111,7 @@ a.project {
 
 /*** Centrer H3 et H4 Mobile version ***/
 
-h3 {
-  text-align: center;
-}
 
-h4 {
-  text-align: center;
-}
 
 
 .paddingIn {
@@ -294,7 +293,7 @@ PAGE: ABOUT
     display: block; /* sépare les block */
     /*max-width: 150px; /*no larger*/
     margin: auto; /* auto permet de centrer */
-    border-radius: 100%; /*rond (12px corner curve)*/
+    border-radius: 25px; /*rond (12px corner curve)*/
 }
 
 .profile-photo1 {
