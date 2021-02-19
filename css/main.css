@@ -54,12 +54,7 @@ a.project {
     color: #fff;
 }
 
-#testimonial {
-    background-color: transparent;
-    border-style: none;
-    color: #000;
-    font-size: 14px;
-}
+
 
 
 .topmargin {
@@ -111,12 +106,13 @@ a.project {
   border-style: solid;
 }
 
-p#testimonial.card-text {
-  font-family: 'Courgette', cursive;
-}
 
-p#testi-home.card-text {
-  font-family: 'Courgette', cursive;
+#testimonial {
+    background-color: transparent;
+    border-style: none;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Courgette', cursive;
 }
 
 #testi-home {
