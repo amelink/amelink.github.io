@@ -22,6 +22,8 @@ img{ /* the image fill in with the parents */
     max-width: 100%; /* 100% de l'écrant / s'adapte en fonction des écrans*/
 }
 
+
+/*** Centrer H3 et H4 Mobile version ***/
 h3 {
     margin: 0 0 1em 0;
     color: #696969;
@@ -109,7 +111,27 @@ a.project {
   border-style: solid;
 }
 
-/*** Centrer H3 et H4 Mobile version ***/
+p#testimonial.card-text {
+  font-family: 'Courgette', cursive;
+}
+
+p#testi-home.card-text {
+  font-family: 'Courgette', cursive;
+}
+
+#testi-home {
+  font-family: 'Courgette', cursive;
+}
+
+#testi-banner {
+  text-align: right;
+}
+
+#testi-img {
+  width: 500px;
+  height: 140px;
+}
+
 
 
 
@@ -315,13 +337,6 @@ PAGE: ABOUT
   margin: auto;
 }
 
-p#testimonial.card-text {
-  font-family: 'Courgette', cursive;
-}
-
-p#testi-home.card-text {
-  font-family: 'Courgette', cursive;
-}
 
 
 
